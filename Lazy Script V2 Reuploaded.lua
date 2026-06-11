@@ -1,3 +1,4 @@
+---VILKI OPEN SRC---
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CeleryHub/Shlexware-s-Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Lazy Script V2 - Obby for Owner Admin", HidePremium = true, IntroEnabled = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroText = "Are You Lazy?", IntroIcon = "rbxassetid://16336200609"})
