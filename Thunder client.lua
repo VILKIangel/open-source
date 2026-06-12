@@ -1,3 +1,4 @@
+---VILKI OPEN SRC---
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local CoreGui = game:GetService("CoreGui")
