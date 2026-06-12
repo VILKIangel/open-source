@@ -1,0 +1,1000 @@
+---VILKI OPEN SRC---
+---NO KEY---
+local Env = getfenv();
+local e = {};
+local local_items1 = {...};
+local sk_loc2 = true;
+local sk_loc3 = string.gmatch;
+local function sk_loc4(...)
+    error("Tamper Detected!");
+    return; 
+end;
+local sk_loc5 = false;
+local sk_loc6 = pcall(function(...)
+    sk_loc5 = true;
+    return; 
+end);
+local sk_loc7 = sk_loc6;
+if sk_loc6 then
+    sk_loc7 = sk_loc5;
+end;
+local sk_loc8 = 1;
+local sk_loc9 = math.random;
+local sk_loc10 = table.concat;
+local sk_loc11 = table;
+local function sk_loc12(...)
+    while true do
+        l1 = l2;
+        l2 = l1;
+        sk_loc4(); 
+    end;
+    return; 
+end;
+if sk_loc11 then
+    n = table.unpack;
+end;
+local sk_loc13 = sk_loc10;
+local sk_loc14 = sk_loc11 or unpack;
+local sk_loc15 = sk_loc9(3, 65);
+local local_items2 = {
+    pcall(function(...)
+        return "ULHlt7MCM" / (9863279 - "8C1PQmbwF" ^ 12647304); 
+    end)
+};
+local sk_loc17 = sk_loc16[2];
+local sk_loc18 = tonumber(sk_loc3(tostring(sk_loc17), ":(%d*):")());
+for H = 1, sk_loc15 do
+    r9 = H;
+    r10 = math.random(1, 100);
+    r11 = sk_loc9(0, 255);
+    r12 = sk_loc9(1, r10);
+    r13 = sk_loc9(1, 2) == 1;
+    r14 = sk_loc17.gsub(sk_loc17, ":(%d*):", ":" .. tostring(sk_loc9(0, 10000)) .. ":");
+    m = {
+        pcall(function(...)
+            if sk_loc9(1, 2) == 1 or r9 == sk_loc15 then
+                sk_loc2 = sk_loc2 and sk_loc18 == tonumber(sk_loc3(tostring(({
+                    pcall(function(...)
+                        return "RwCg3xGkKJ5Eh" / (4329969 - "T57H3" ^ 8807877); 
+                    end)
+                })[2]), ":(%d*):")());
+            end;
+            if r13 then
+                error(r14, 0);
+            end;
+            local_items3 = {};
+            for a = 1, r10 do
+                sk_loc1[a] = sk_loc9(0, 255); 
+            end;
+            sk_loc1[r12] = r11;
+            return sk_loc14(sk_loc1); 
+        end)
+    };
+    if r13 then
+        sk_loc2 = sk_loc2 and (pcall(function(...)
+            if sk_loc9(1, 2) == 1 or r9 == sk_loc15 then
+                sk_loc2 = sk_loc2 and sk_loc18 == tonumber(sk_loc3(tostring(({
+                    pcall(function(...)
+                        return "RwCg3xGkKJ5Eh" / (4329969 - "T57H3" ^ 8807877); 
+                    end)
+                })[2]), ":(%d*):")());
+            end;
+            if r13 then
+                error(r14, 0);
+            end;
+            local_items4 = {};
+            for a = 1, r10 do
+                sk_loc1[a] = sk_loc9(0, 255); 
+            end;
+            sk_loc1[r12] = r11;
+            return sk_loc14(sk_loc1); 
+        end) == false and m[2] == r14);
+    end; 
+end;
+local sk_loc19 = sk_loc2 and 0 == 0;
+if sk_loc19 then
+    local_items5 = {};
+    r17 = math.floor;
+    r18 = 0;
+    r19 = 2;
+    local_items6 = {};
+    sk_loc11 = 0;
+    for O = 1, 256 do
+        sk_loc16[O] = O; 
+    end;
+    sk_loc17 = #sk_loc16 == 0;
+    O = table.remove(sk_loc16, math.random(1, #sk_loc16));
+    r20[O] = string.char(O - 1);
+    if #sk_loc16 == 0 then
+        local_items7 = {};
+        local_items8 = {};
+        r15 = setmetatable({}, {
+            ["__index"] = r23,
+            ["__metatable"] = nil
+        });
+        sk_loc8 = game;
+        Rayfield = loadstring(sk_loc8.HttpGet(sk_loc8, "https://sirius.menu/rayfield"))();
+        Z = Rayfield;
+        Window = Z.CreateWindow(Z, {
+            ["Name"] = "Be a Lucky Block For Anime! VILKI OPEN SRC!",
+            ["LoadingTitle"] = "KhSaeedHub",
+            ["LoadingSubtitle"] = "OPEN SRC BY VILKI",
+            ["ConfigurationSaving"] = {
+                ["Enabled"] = true,
+                ["FolderName"] = KhSaeedHub,
+                ["FileName"] = "KhSaeedHub"
+            },
+            ["Discord"] = {
+                ["Enabled"] = true,
+                ["Invite"] = "https://github.com/VILKIangel/",
+                ["RememberJoins"] = true
+            },
+            ["KeySystem"] = false,
+            ["KeySettings"] = {
+                ["Title"] = "KhSaeedHub",
+                ["Subtitle"] = "Thank you for your support!",
+                ["Note"] = "https://khsaeedhub.vercel.app/",
+                ["FileName"] = "KhSaeedHub",
+                ["SaveKey"] = true,
+                ["GrabKeyFromSite"] = true,
+                ["Key"] = {
+                    "https://khsaeedhub.vercel.app/api/key/raw/"
+                }
+            }
+        });
+        Z = Window;
+        Tab = Z.CreateTab(Z, "Main");
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Plot");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "My Plot",
+            ["Callback"] = function(...)
+                getPlot();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Auto Escape",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_2, ...)
+                Escape = arg1_2;
+                if Escape then
+                    getEscape();
+                end;
+                Y = game;
+                sk_loc7 = Y.GetService(Y, "Players").LocalPlayer;
+                a = "IsEscaping";
+                Y = sk_loc7.GetAttributeChangedSignal(sk_loc7, a);
+                EscapeHeart = Y.Connect(Y, function(...)
+                    if Escape and a.GetService(a, "Players").LocalPlayer.Character then
+                        getEscape();
+                    else
+                        sk_loc13 = EscapeHeart;
+                        sk_loc13.Disconnect(sk_loc13);
+                    end;
+                    return; 
+                end);
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Hatch");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Instant Hatch",
+            ["Callback"] = function(...)
+                getHatch();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Auto Instant Hatch",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_3, ...)
+                Hatch = arg1_3;
+                Auto = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Hatch then
+                        return;
+                    end;
+                    getHatch();
+                    task.delay(1, Auto);
+                    return; 
+                end;
+                Auto();
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Sell");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Sell One",
+            ["Callback"] = function(...)
+                getSell("Equipped");
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Sell Inventory",
+            ["Callback"] = function(...)
+                getSell("Inventory");
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "");
+        Z = Window;
+        Tab = Z.CreateTab(Z, "AutoRun");
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Run n Skip");
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 11 (Griffin)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_4, ...)
+                Run11 = arg1_4;
+                Auto11 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run11 then
+                        return;
+                    end;
+                    getRun(11);
+                    task.delay(1, Auto11);
+                    return; 
+                end;
+                Auto11();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 10 (Almighty)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_5, ...)
+                Run10 = arg1_5;
+                Auto10 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run10 then
+                        return;
+                    end;
+                    getRun(10);
+                    task.delay(1, Auto10);
+                    return; 
+                end;
+                Auto10();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 9 (The World)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_6, ...)
+                Run9 = arg1_6;
+                Auto9 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run9 then
+                        return;
+                    end;
+                    getRun(9);
+                    task.delay(1, Auto9);
+                    return; 
+                end;
+                Auto9();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 8 (Okaza)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_7, ...)
+                Run8 = arg1_7;
+                Auto8 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run8 then
+                        return;
+                    end;
+                    getRun(8);
+                    task.delay(1, Auto8);
+                    return; 
+                end;
+                Auto8();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 7 (Aizan)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_8, ...)
+                Run7 = arg1_8;
+                Auto7 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run7 then
+                        return;
+                    end;
+                    getRun(7);
+                    task.delay(1, Auto7);
+                    return; 
+                end;
+                Auto7();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 6 (Control Devil)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_9, ...)
+                Run6 = arg1_9;
+                Auto6 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run6 then
+                        return;
+                    end;
+                    getRun(6);
+                    task.delay(1, Auto6);
+                    return; 
+                end;
+                Auto6();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 5 (Sykuna)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_10, ...)
+                Run5 = arg1_10;
+                Auto5 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run5 then
+                        return;
+                    end;
+                    getRun(5);
+                    task.delay(1, Auto5);
+                    return; 
+                end;
+                Auto5();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 4 (Demon King)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_11, ...)
+                Run4 = arg1_11;
+                Auto4 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run4 then
+                        return;
+                    end;
+                    getRun(4);
+                    task.delay(1, Auto4);
+                    return; 
+                end;
+                Auto4();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 3 (Saitama)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_12, ...)
+                Run3 = arg1_12;
+                Auto3 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run3 then
+                        return;
+                    end;
+                    getRun(3);
+                    task.delay(1, Auto3);
+                    return; 
+                end;
+                Auto3();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 2 (Loffi)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_13, ...)
+                Run2 = arg1_13;
+                Auto2 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run2 then
+                        return;
+                    end;
+                    getRun(2);
+                    task.delay(1, Auto2);
+                    return; 
+                end;
+                Auto2();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Base 1 (Kakarot)",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_14, ...)
+                Run1 = arg1_14;
+                Auto1 = function(...)
+                    local h = {
+                        h[1],
+                        h[2]
+                    };
+                    if not Run1 then
+                        return;
+                    end;
+                    getRun(1);
+                    task.delay(1, Auto1);
+                    return; 
+                end;
+                Auto1();
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "");
+        Z = Window;
+        Tab = Z.CreateTab(Z, "Run");
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Run n Skip");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 11 (Griffin)",
+            ["Callback"] = function(...)
+                getRun(11);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 10 (Almighty)",
+            ["Callback"] = function(...)
+                getRun(10);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 9 (The World)",
+            ["Callback"] = function(...)
+                getRun(9);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 8 (Okaza)",
+            ["Callback"] = function(...)
+                getRun(8);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 7 (Aizan)",
+            ["Callback"] = function(...)
+                getRun(7);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 6 (Control Devil)",
+            ["Callback"] = function(...)
+                getRun(6);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 5 (Sykuna)",
+            ["Callback"] = function(...)
+                getRun(5);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 4 (Demon King)",
+            ["Callback"] = function(...)
+                getRun(4);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 3 (Saitama)",
+            ["Callback"] = function(...)
+                getRun(3);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 2 (Loffi)",
+            ["Callback"] = function(...)
+                getRun(2);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Base 1 (Kakarot)",
+            ["Callback"] = function(...)
+                getRun(1);
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "1 Click Start Race, 2 Click Skip to Base");
+        Z = Tab;
+        Section = Z.CreateSection(Z, "");
+        Z = Window;
+        Tab = Z.CreateTab(Z, "Floor");
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Floor");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "1st Floor",
+            ["Callback"] = function(...)
+                getPlot();
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "2nd Floor",
+            ["Callback"] = function(...)
+                getFloor(2);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "3rd Floor",
+            ["Callback"] = function(...)
+                getFloor(3);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "4th Floor",
+            ["Callback"] = function(...)
+                getFloor(4);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "5th Floor",
+            ["Callback"] = function(...)
+                getFloor(5);
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Sell");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Sell One",
+            ["Callback"] = function(...)
+                getSell("Equipped");
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Sell Inventory",
+            ["Callback"] = function(...)
+                getSell("Inventory");
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "");
+        Z = Window;
+        Tab = Z.CreateTab(Z, "Upgrade");
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Rebirth \xe2\x99\xbb\xef\xb8\x8f");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Rebirth",
+            ["Callback"] = function(...)
+                getRebirth();
+                return; 
+            end
+        });
+        Z = Tab;
+        Toggle = Z.CreateToggle(Z, {
+            ["Name"] = "Auto Rebirth",
+            ["CurrentValue"] = false,
+            ["Flag"] = "Toggle",
+            ["Callback"] = function(arg1_15, ...)
+                Rebirth = arg1_15;
+                Y = game;
+                a = Y.GetService(Y, "RunService");
+                sk_loc7 = a.Heartbeat;
+                RebirthHeart = sk_loc7.Connect(sk_loc7, function(...)
+                    if Rebirth and a.GetService(a, "Players").LocalPlayer.Character then
+                        getRebirth();
+                    else
+                        sk_loc13 = RebirthHeart;
+                        sk_loc13.Disconnect(sk_loc13);
+                    end;
+                    return; 
+                end);
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Speed \xf0\x9f\x91\x9f");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "+1 Speed",
+            ["Callback"] = function(...)
+                getSpeed(1);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "+5 Speed",
+            ["Callback"] = function(...)
+                getSpeed(5);
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "+10 Speed",
+            ["Callback"] = function(...)
+                getSpeed(10);
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Base \xf0\x9f\x8f\xa0");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Upgrade Base",
+            ["Callback"] = function(...)
+                getBase();
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "");
+        Z = Window;
+        Tab = Z.CreateTab(Z, "Misc");
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Crate \xf0\x9f\x93\xa6");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Legendary (1500 \xf0\x9f\x92\x8e)",
+            ["Callback"] = function(...)
+                getCrate("Legendary");
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Rare (500 \xf0\x9f\x92\x8e)",
+            ["Callback"] = function(...)
+                getCrate("Rare");
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Basic (250 \xf0\x9f\x92\x8e)",
+            ["Callback"] = function(...)
+                getCrate("Basic");
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Spin \xf0\x9f\x94\xae");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Spin",
+            ["Callback"] = function(...)
+                getSpin();
+                return; 
+            end
+        });
+        Z = Tab;
+        Section = Z.CreateSection(Z, "");
+        Z = Window;
+        Tab = Z.CreateTab(Z, "Credits", 14848261712);
+        Z = Tab;
+        Section = Z.CreateSection(Z, "Credits to: KhSaeedHub");
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "RScripts Profile",
+            ["Callback"] = function(...)
+                setclipboard("https://rscripts.net/@KhSaeed90");
+                sk_loc13 = Rayfield;
+                sk_loc13.Notify(sk_loc13, {
+                    ["Title"] = "Link is copied",
+                    ["Content"] = "Check RScripts profile page for more Scripts!",
+                    ["Duration"] = 5,
+                    ["Image"] = 14848261712
+                });
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Scriptblox Profile",
+            ["Callback"] = function(...)
+                setclipboard("https://scriptblox.com/u/KhSaeed90");
+                sk_loc13 = Rayfield;
+                sk_loc13.Notify(sk_loc13, {
+                    ["Title"] = "Link is copied",
+                    ["Content"] = "Check ScriptBlox profile page for more Scripts!",
+                    ["Duration"] = 5,
+                    ["Image"] = 14848261712
+                });
+                return; 
+            end
+        });
+        Z = Tab;
+        Button = Z.CreateButton(Z, {
+            ["Name"] = "Discord Server",
+            ["Callback"] = function(...)
+                setclipboard("https://controlc.com/5572471c");
+                sk_loc13 = Rayfield;
+                sk_loc13.Notify(sk_loc13, {
+                    ["Title"] = "Link is copied",
+                    ["Content"] = "Join discord server for more Scripts!",
+                    ["Duration"] = 5,
+                    ["Image"] = 14848261712
+                });
+                return; 
+            end
+        });
+        getPlot = function(...)
+            target = nil;
+            B = workspace;
+            Z = {
+                B.GetChildren(B)
+            };
+            Y = B[2];
+            sk_loc1 = B[1];
+            for a, Z in ipairs(Q(Z)) do
+                B = a;
+                sk_loc11 = game;
+                if Z.Name == "Plot_" .. sk_loc11.GetService(sk_loc11, "Players").LocalPlayer.Name then
+                    target = Z;
+                end; 
+            end;
+            a = target;
+            sk_loc1 = a;
+            if a then
+                a = target;
+                sk_loc1 = a.FindFirstChild(a, "Spawn");
+            end;
+            if sk_loc1 then
+                a = game;
+                sk_loc1 = a.GetService(a, "Players").LocalPlayer.Character;
+                sk_loc6 = target.Spawn;
+                sk_loc1.PivotTo(sk_loc1, CFrame.new(sk_loc6.GetPivot(sk_loc6).Position + Vector3.new(0, 5, 0)));
+            else
+                sk_loc1 = target and not ("target").FindFirstChild("target", "Spawn");
+                sk_loc13 = sk_loc13;
+                if sk_loc1 then
+                    a = game;
+                    sk_loc1 = a.GetService(a, "Players").LocalPlayer.Character;
+                    sk_loc6 = target;
+                    sk_loc1.PivotTo(sk_loc1, CFrame.new(sk_loc6.GetPivot(sk_loc6).Position + Vector3.new(0, 5, 0)));
+                end;
+                return;
+            end; 
+        end;
+        getFloor = function(arg1_16, ...)
+            sk_loc1 = arg1_16;
+            target = nil;
+            Z = workspace;
+            local_items9 = {
+                Z.GetChildren(Z)
+            };
+            B = Z[3];
+            for B, sk_loc8 in Z[1], ipairs(Q(sk_loc8)) do
+                Z = B;
+                D = game;
+                if sk_loc8.Name == "Plot_" .. D.GetService(D, "Players").LocalPlayer.Name then
+                    sk_loc11 = sk_loc8.GetChildren;
+                    n = sk_loc11[3];
+                    sk_loc12 = sk_loc11[2];
+                    for n, sk_loc11 in ipairs(sk_loc11(sk_loc8)) do
+                        W = n;
+                        if sk_loc11.Name == "Floor" .. arg1_16 then
+                            target = sk_loc11;
+                        end; 
+                    end;
+                end; 
+            end;
+            Y = target;
+            if Y then
+                B = game;
+                Y = B.GetService(B, "Players").LocalPlayer.Character;
+                sk_loc12 = target;
+                Y.PivotTo(Y, CFrame.new(sk_loc12.GetPivot(sk_loc12).Position + Vector3.new(0, 5, 0)));
+            end;
+            return; 
+        end;
+        getEscape = function(...)
+            sk_loc7 = game;
+            sk_loc13 = sk_loc7.GetService(sk_loc7, "Players").LocalPlayer;
+            IsEscaping = sk_loc13.GetAttribute(sk_loc13, "IsEscaping");
+            if IsEscaping then
+                getPlot();
+            end;
+            return; 
+        end;
+        getSell = function(arg1_17, ...)
+            Y = game;
+            sk_loc13 = Y.GetService(Y, "ReplicatedStorage").Events.RequestSell;
+            sk_loc13.FireServer(sk_loc13, arg1_17);
+            return; 
+        end;
+        getBase = function(...)
+            sk_loc1 = game;
+            sk_loc13 = sk_loc1.GetService(sk_loc1, "ReplicatedStorage").Events.RequestBaseUpgrade;
+            sk_loc13.FireServer(sk_loc13);
+            return; 
+        end;
+        getSpeed = function(arg1_18, ...)
+            sk_loc13 = game;
+            sk_loc7 = sk_loc13.GetService(sk_loc13, "ReplicatedStorage");
+            sk_loc13 = sk_loc7.WaitForChild(sk_loc7, "Events");
+            sk_loc7 = sk_loc13.WaitForChild(sk_loc13, "RequestUpgradeAction");
+            sk_loc7.FireServer(sk_loc7, "MovementSpeed", tonumber(arg1_18));
+            return; 
+        end;
+        getRebirth = function(...)
+            sk_loc11 = game;
+            if sk_loc11.GetService(sk_loc11, "Players").LocalPlayer.PlayerGui.GUI.Frames.Rebirth.Frame.Bar.Progress.Size.X.Scale < 1 then
+                return;
+            end;
+            sk_loc1 = game;
+            sk_loc13 = sk_loc1.GetService(sk_loc1, "ReplicatedStorage").Events.RequestRebirth;
+            sk_loc13.FireServer(sk_loc13);
+            return; 
+        end;
+        getRun = function(arg1_19, ...)
+            sk_loc13 = workspace.Map.Carpets;
+            Path = sk_loc13.FindFirstChild(sk_loc13, arg1_19);
+            if not Path then
+                return;
+            end;
+            a = game;
+            target = a.GetService(a, "Players").LocalPlayer.Character;
+            a = target;
+            if not a then
+                Z = game;
+                a = Z.GetService(Z, "Players").LocalPlayer.Character;
+                Y = not a.GetAttribute(a, "IsEscaping");
+                if Y then
+                    B = game;
+                    Y = B.GetService(B, "Players").LocalPlayer.Character;
+                    sk_loc12 = workspace.Race.Start;
+                    Y.PivotTo(Y, CFrame.new(sk_loc12.GetPivot(sk_loc12).Position + Vector3.new(0, 5, 0)));
+                else
+                    B = game;
+                    Y = B.GetService(B, "Players").LocalPlayer.Character;
+                    if Y.GetAttribute(Y, "IsEscaping") then
+                        getPlot();
+                    end;
+                end;
+            else
+                Y = target;
+                if Y then
+                    Y = target;
+                    sk_loc12 = Path;
+                    Y.PivotTo(Y, CFrame.new(sk_loc12.GetPivot(sk_loc12).Position + Vector3.new(0, 5, 0)));
+                end;
+                return;
+            end; 
+        end;
+        getHatch = function(...)
+            sk_loc13 = game;
+            sk_loc7 = sk_loc13.GetService(sk_loc13, "ReplicatedStorage");
+            sk_loc13 = sk_loc7.WaitForChild(sk_loc7, "Events");
+            sk_loc7 = sk_loc13.WaitForChild(sk_loc13, "NotifyHatched");
+            sk_loc7.FireServer(sk_loc7, 1);
+            task.wait(.1);
+            sk_loc13 = game;
+            sk_loc7 = sk_loc13.GetService(sk_loc13, "ReplicatedStorage");
+            sk_loc13 = sk_loc7.WaitForChild(sk_loc7, "Events");
+            sk_loc7 = sk_loc13.WaitForChild(sk_loc13, "RewardEscape");
+            sk_loc7.FireServer(sk_loc7);
+            return; 
+        end;
+        getCrate = function(arg1_20, ...)
+            sk_loc13 = game;
+            sk_loc7 = sk_loc13.GetService(sk_loc13, "ReplicatedStorage");
+            sk_loc13 = sk_loc7.WaitForChild(sk_loc7, "Events");
+            sk_loc7 = sk_loc13.WaitForChild(sk_loc13, "RequestGemShopPurchase");
+            sk_loc7.InvokeServer(sk_loc7, arg1_20 .. " Crate");
+            return; 
+        end;
+        getSpin = function(...)
+            sk_loc13 = game;
+            sk_loc7 = sk_loc13.GetService(sk_loc13, "ReplicatedStorage");
+            sk_loc13 = sk_loc7.WaitForChild(sk_loc7, "Events");
+            sk_loc7 = sk_loc13.WaitForChild(sk_loc13, "RequestSpin");
+            sk_loc7.InvokeServer(sk_loc7);
+            return; 
+        end;
+        return;
+    end;
+end;
+return (function(...)
+    while true do
+        l1 = l2;
+        l2 = l1;
+        sk_loc4(); 
+    end;
+    return; 
+end)();
